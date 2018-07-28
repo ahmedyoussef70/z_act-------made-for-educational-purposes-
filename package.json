@@ -1,0 +1,24 @@
+{
+  "name": "z_act",
+  "version": "1.0.0",
+  "description": "A React-like JavaScript library that supports components, lifecycle hooks and JSX syntax (4k minified)",
+  "main": "z_act.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedyoussef70/z_act.git"
+  },
+  "keywords": [
+    "virtual-dom",
+    "components",
+    "jsx"
+  ],
+  "author": "Ahmed Youssef <ahmedyoussef7000@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmedyoussef70/z_act/issues"
+  },
+  "homepage": "https://github.com/ahmedyoussef70/z_act#readme"
+}
