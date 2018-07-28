@@ -14,4 +14,4 @@ A React-like JavaScript library, **built for educational purposes**.
 - z_act setState method is sync
 
 # Demo
-https://playcode.io/zzzzzzzzzzzzzzz9090zzzzzzzzzz/v1
+https://codepen.io/ahmedyoussef70/pen/zLPdJw
