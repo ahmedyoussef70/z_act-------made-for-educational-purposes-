@@ -10,7 +10,7 @@ A React-like JavaScript library, **built for educational purposes**.
 ```jsx
     <parent> <child></child> </parent>
 ```
-- z_act doesn't support refs because every component has a **dom** property references the dom element that represents the component.
+- z_act doesn't support refs because every statful component has a **dom** property references the dom element that represents the component.
 - z_act setState method is sync
 
 # Use z_act in the browser
