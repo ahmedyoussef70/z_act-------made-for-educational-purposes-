@@ -21,7 +21,7 @@ A React-like JavaScript library, **built for educational purposes**.
 /* @jsx h */
 const { h, Component, render } = z_act
     // your code ...
-<script>
+</script>
 ```
 
 # Demo
