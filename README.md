@@ -1,5 +1,5 @@
 # z_act
-A React-like JavaScript library, **built for educational purposes**.
+A React-like JavaScript library.
 
 # Differences from React
 - z_act is faster than React in what it does
