@@ -209,7 +209,6 @@ const z_act = (function() {
           deleteNotNeededChildren(dom.childNodes, vnode.children || []);
         } else if (keyed) {
           let focusedElement = document.activeElement;
-          let isFocusedElementChildOfCurrentParent = focusedElement.parentNode === parent;
           let vkeysMap = {};
           for (let i = cf; i < vchildren.length; i++)
             if (vchildren[i].attrs.key || vchildren[i].attrs.key === 0) vkeysMap[vchildren[i].attrs.key] = true;
@@ -255,7 +254,7 @@ const z_act = (function() {
           }
           dkeysMap = undefined;
           vkeysMap = undefined;
-          isFocusedElementChildOfCurrentParent && focusedElement.focus();
+          focusedElement !== document.activeElement && focusedElement.focus();
           return true;
         } else {
           let _dom = domFactory(vnode);
