@@ -24,5 +24,6 @@ const { h, Component, render } = z_act
 </script>
 ```
 
-# Demo
-https://codepen.io/ahmedyoussef70/pen/zLPdJw
+# Demos
+- basic react examples re-created with z_act.js https://codepen.io/ahmedyoussef70/pen/zLPdJw
+- shuffling a list of inputs with unique keys every second https://codepen.io/ahmedyoussef70/pen/zLLVVz
